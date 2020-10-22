@@ -34,7 +34,8 @@ Maduino zero CANbus with RS485 is an IoT (Internet of things) Solution based on 
 
 * The sensors or devices which can carry on RS485 or CANbus are connected to the board through cables. in this project, use the same board instead of the device being tested, and connected two board by cables or Dupont Lines to check the communication between boards.<br>
 * The pins connection is:<br>
-|Maduino Zero CANbus with RS485 |Devices or sensors|
+
+|Maduino Zero CANbus with RS485 |Devices or sensors |
 |---|---|
 |GND |GND |
 |RS485_A |RS485_A |
