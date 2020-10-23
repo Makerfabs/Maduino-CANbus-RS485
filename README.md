@@ -49,7 +49,7 @@ Maduino zero CANbus with RS485 is an IoT (Internet of things) Solution based on 
 ![](https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/md_pic/Maduino_RS485_103.jpg)
 
 #### RS485
-* One board upload the [RS485.ino](https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/RS485/RS485.ino) ,
+* Two boards upload the [RS485.ino](https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/RS485/RS485.ino) ,
 * After the upload is successful, open the Serial Monitor and send data through the Serial Monitor, and receive the data through RS485 communication on another board. The blue indicator light on the board will flash when data is received.<br>
 ![](https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/md_pic/Maduino_RS485_104.jpg)
 ![](https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/md_pic/Maduino_RS485_105.jpg)
