@@ -13,7 +13,7 @@ void setup() {
 void loop() {
      //get what form serial send to USB serial
     while (Serial1.available() > 0) {
-      //digitalWrite(RS485_LED,HIGH);  
+      digitalWrite(RS485_LED,HIGH);  
       SerialUSB.write(Serial1.read()); 
       
       yield();
