@@ -41,7 +41,7 @@ CAN-BUS is a common industrial communication bus because of its long travel dist
 * One board upload the [CAN_Sender.ino](https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/CAN_Sender/CAN_Sender.ino) , and the other upload the [CAN_Receiver.ino](https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/CAN_Receiver/CAN_Receiver.ino). Both programs include the functions which can realize receiving and sending data in RS485 communication mode and CANBUS communication mode.<br>
 * After the upload is successful, open the Serial Monitor and you can observe that the board is receiving and sending data cyclically through CANBUS. The green indicator light on the board will flash when data is received.<br>
 
-<img src="https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/md_pic/Maduino_RS485_103.jpg" width="900" height="1000"  alt=""/><br/>
+<img src="https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/md_pic/Maduino_RS485_103.jpg" width="900" height="950"  alt=""/><br/>
 
 #### RS485
 * Two boards upload the [RS485.ino](https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/RS485/RS485.ino) ,
