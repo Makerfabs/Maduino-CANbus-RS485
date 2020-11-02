@@ -1,25 +1,19 @@
 # Maduino Zero CANbus with RS485
 ## Introduce
 
-
-Maduino zero CANbus with RS485 is an IoT (Internet of things) Solution based on the 32-bit Atmel’s SAMD21 MCU.<br>
+CAN-BUS is a common industrial communication bus because of its long travel distance, medium communication speed, and high reliability, it is the backbone of many protocols with applications in automation, industrial systems, building management. This Maduino Zero CAN-BUS based on SAMD21G18A, with the CAN controller MCP2515 and CAN transceiver MAX3051, to create a ready-to-use CAN-bus port. With this board, you can easily get/send your local data remotely with a standard CAN Bus. For example, you can collect local sensor data, using the Maduino zero ports, and send all the data to remote servers, to create remote-monitor with reliable CAN-Bus communication.<br>
 [Makerfabs Wiki](https://www.makerfabs.com/wiki/index.php?title=Maduino_Zero_Canbus_with_RS485) <br>
 <img src="https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/md_pic/Maduino_RS485_101.jpg" width="400" height="400"  alt=""/><br/>
 
 ## Features
 
 
-* ATMEL SAMD21G18A: 32-bit ARM® Cortex®-M0 up to 48MHz, 256KB flash, 32KB SRAM, LQFP48v • Powered by lithium battery (3.4-4.2V) or AC-DC Adapter.<br>
-* Arduino Compatible: Compatible with Arduino IDE.<br>
+* ATMEL SAMD21G18A: 32-bit ARM® Cortex®-M0, Arduino Zero bootloader pre-loaded.<br>
+* CAN-BUS/ RS-485.<br>
 * Implements CAN V2.0 at 1M/s.<br>
-* MCP2515 CAN Bus controller and MCP2551 CAN Bus transceiver.<br>
+* MCP2515 CAN Bus controller and MAX3051 CAN Bus transceiver.<br>
 * Allows for Transmission Speeds Up to 16Mbps of RS-485.<br>
-* AutoDirection Enables Driver Automatically on Transmission of RS-485.<br>
-* Allowing Up to 128 Transceivers on the Bus of RS-485.<br>
-* Extended ESD Protection for RS-485 I/O Pins and CANBUS I/O Pins.<br>
-* Integrated DB9 male connector.<br>
-* Industrial standard 9 pin sub-D connector.<br>
-* 5V power supply.<br>
+* Industrial standard 9 pins sub-D connector.<br>
 
 ## Usage
 
