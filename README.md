@@ -1,4 +1,4 @@
-# Maduino Zero CANbus with RS485
+# Maduino Zero CANBUS
 ## Introduce
 
 CAN-BUS is a common industrial communication bus because of its long travel distance, medium communication speed, and high reliability, it is the backbone of many protocols with applications in automation, industrial systems, building management. This Maduino Zero CAN-BUS based on SAMD21G18A, with the CAN controller MCP2515 and CAN transceiver MAX3051, to create a ready-to-use CAN-bus port. With this board, you can easily get/send your local data remotely with a standard CAN Bus. For example, you can collect local sensor data, using the Maduino zero ports, and send all the data to remote servers, to create remote-monitor with reliable CAN-Bus communication.<br>
@@ -51,7 +51,9 @@ CAN-BUS is a common industrial communication bus because of its long travel dist
 <img src="https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/md_pic/Maduino_RS485_104.jpg" width="1000" height="300"  alt=""/><br/>
 <img src="https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/md_pic/Maduino_RS485_105.jpg" width="400" height="400"  alt=""/><br/>
 
+#### TEST_DHT11_OLED
 
+This project is about data transmission via CANBUS. Use Maduino Zero CANBUS to collect temperature and humidity data and send it through CANBUS, and use the same module to receive and display the data.
 
 
 
