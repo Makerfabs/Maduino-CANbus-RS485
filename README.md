@@ -55,7 +55,7 @@ CAN-BUS is a common industrial communication bus because of its long travel dist
 
 This project is about data transmission via CANBUS. Use Maduino Zero CANBUS to collect temperature and humidity data and send it through CANBUS, and use the same module to receive and display the data.
 
-
+<img src="https://github.com/Makerfabs/Maduino-CANbus-RS485/blob/main/md_pic/Maduino-Zero%20CAN-BUS-DHT11-OLED.gif" width="640" height="359"  alt=""/><br/>
 
 
 
